@@ -36,7 +36,7 @@ Open Command Prompt and type the following commands to verify the installation:
 
 ```bash
 aws --version
-'''
+```
 # AWS EMR Cluster Setup
 
 ## Creating an EMR Cluster
@@ -169,5 +169,3 @@ aws --version
     pip install -r requirements.txt
     spark-submit --packages org.apache.hadoop:hadoop-aws:3.2.2 [file_name.py]
     ```
-
-Replace `[file_name.py]` with your filename.
